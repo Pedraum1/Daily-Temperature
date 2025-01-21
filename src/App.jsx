@@ -17,7 +17,7 @@ function App() {
             </h5>
           </section>
           <section className="flex-grow grid grid-cols-3 grid-rows-3 gap-4 h-full">
-            <Temperature/>
+            <Temperature Climate={"cloudy"} Temperature={27} />
             <Humidity/>
             <Graph/>
           </section>
